@@ -1,9 +1,18 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Badge from "../components/Badge.astro";
+import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Welcome to Astro.">
-	<main>
-		<h1>Welcome to my portfolio!</h1>
-	</main>
+  <main>
+    <section class="w-full lg:w-[740px] mx-auto py-20">
+      <h1 class="text-white text-5xl font-bold flex justify-center flex-row"></h1>¡Hola, soy Juanes! <Badge
+        >¡Trabajemos juntos!</Badge>   
+    <h2>
+      +1 año de experiencia. Desarrollador Backend & DevOps Engeenier🚀.
+      Medellín, Colombia. Me especializo en el desarrollo de API's y manejo de
+      infrastruturas de CI/CD.
+    </h2>
+</section>
+  </main>
 </Layout>

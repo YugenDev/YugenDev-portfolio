@@ -1,5 +1,6 @@
 ---
 import Header from '../components/Header.astro';
+import '@fontsource/libre-baskerville';
 
 interface Props {
 	title: string;
@@ -20,6 +21,7 @@ const { title } = Astro.props;
 	</head>
 	<body>
 		<Header/>
+		<slot></slot>
 		
 	</body>
 </html>
@@ -27,17 +29,19 @@ const { title } = Astro.props;
 <style :is-global>
 	:root {
 		color-scheme: light dark;
+		
 	}
 
 	html{
-		background-color: hsl(0, 0%, 9%);
-		font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		font-family: 'Libre Baskerville', serif;
 	}
 
 	body{
 		display: flex;
+		flex-direction: column;
 		justify-content: center;
-
+		background-color: hsl(0, 0%, 9%);
+		min-height: 100vh;
 	}
 
 </style>
