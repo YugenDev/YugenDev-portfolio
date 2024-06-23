@@ -1,54 +1,35 @@
-# Astro Starter Kit: Basics
+# ¡Aló! 👋
 
-```sh
-npm create astro@latest -- --template basics
-```
+¡Bienvenido a mi perfil de GitHub! Soy Juan, un desarrollador de software con enfoque en el backend, aunque también cuento con competencias sólidas en el frontend con React.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Habilidades Técnicas
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- **Backend:** Java/SpringBoot, Python/FastAPI. <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="35" height="35"/> <img src="https://spring.io/img/spring-2.svg" alt="spboot" width="65" height="35"/> <img src="https://www.vectorlogo.zone/logos/python/python-icon.svg" alt="py" width="20" height="20"/> <img src="https://cdn.worldvectorlogo.com/logos/fastapi-1.svg" alt="py" width="20" height="20"/> 
+- **Frontend:** React, HTML, CSS, JavScript. <img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" alt="react" width="20" height="20"/> <img src="https://cdn.worldvectorlogo.com/logos/html-1.svg" alt="ht" width="20" height="20"/> <img src="https://cdn.worldvectorlogo.com/logos/css-3.svg" alt="css" width="20" height="20"/> <img src="https://cdn.worldvectorlogo.com/logos/javascript-1.svg" alt="js" width="20" height="20"/>
+- **DevOps:** Azure DevOps, Sonarqube, Jfrog Artifactory. <img src="https://logowik.com/content/uploads/images/azure-devops1866.jpg" alt="azdev" width="20" height="20"/> <img src="https://cdn.worldvectorlogo.com/logos/sonarqube-1.svg" alt="sq" width="20" height="20"/> <img src="https://speedmedia.jfrog.com/08612fe1-9391-4cf3-ac1a-6dd49c36b276/https://media.jfrog.com/wp-content/uploads/2017/12/20132914/artyfactory.png" alt="af" width="80" height="20"/>
+- **Cloud Computing & Services:** Azure (en aprendizaje). <img src="https://cdn.worldvectorlogo.com/logos/azure-1.svg" alt="az" width="20" height="20"/>
+- **Version & Repo Control:** GIT <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="20" height="20"/>
+- **Inglés:** B2.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## Proyecto Destacado
 
-## 🚀 Project Structure
+- Black Mesa Bank: Plataforma bancaria con un chatbot impulsado por IA consumiendo la API de ChatGPT 3.
+- **https://github.com/Pablo-Berrio/black_mesa**
 
-Inside of your Astro project, you'll see the following folders and files:
+## Experiencia Laboral
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- **Desarrollador Aprendíz / Aprendíz DevOps | SURA/SURAMERICANA | 1 AÑO (DEC 16 2023 - DEC 16 2024)**
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Educación
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+- **Técnico en Desarrollo de Software | CESDE | JUN 20 2023 - DEC 16 2024**
 
-Any static assets, like images, can be placed in the `public/` directory.
+## Certificados
 
-## 🧞 Commands
+- Platzi: https://drive.google.com/drive/folders/1EhuFzg3yRfQxxScxxTOZd5nn4nWdrM-O?usp=sharing
 
-All commands are run from the root of the project, from a terminal:
+## Objetivos Actuales
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+Actualmente estoy enfocado en mejorar mis habilidades en Python y Go para el desarrollo backend, también estoy expandiendo mi conocimiento en arquitectura DevOps.
 
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+estoy abierto a colaboraciones y contribuciones en proyectos interesantes ;))
