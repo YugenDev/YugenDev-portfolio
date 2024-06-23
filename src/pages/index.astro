@@ -1,6 +1,8 @@
 ---
 import Badge from "../components/Badge.astro";
 import Experience from "../components/Experience.astro";
+import SectionContainer from "../components/SectionContainer.astro";
+import BriefCase from "../icons/BriefCase.astro";
 import Github from "../icons/Github.astro";
 import Instagram from "../icons/Instagram.astro";
 import Linkedin from "../icons/Linkedin.astro";
@@ -8,18 +10,18 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="YugenDev | Portfolio Web">
-  <main>
-    <section class="w-full mx-auto lg:w-[740px] py-44">
+  <main class="px-4">
+    <SectionContainer class="py-16 md:py-36">
       <img class="rounded-full w-24 h-24 mb-5" src="https://avatars.githubusercontent.com/u/138255902?v=4" alt="yugendev photo" />
       <h1 class="text-white text-5xl font-bold flex flex-row gap-x-4 pb-10">
-        Aló, soy YugenDev <div class="flex justify-center items-center">
+        Hola , Soy Juanes <div class="flex justify-center items-center">
           <a
             href="https://www.linkedin.com/in/yugendev/" target="_blank"
             ><Badge>¡Trabajemos juntos!</Badge></a>
         </div>
       </h1>
       <h2 class="text-xl opacity-88 text-wrap">
-        +1.5 años de experiencia. <span class="text-sky-400">Backend Developer y DevOps Ingineer</span> 🚀💻.
+        + 1,5 años de experiencia. <span class="text-sky-400">Backend Developer y DevOps Ingineer</span> 🚀💻
         Soy de Medellín, Colombia.
       </h2>
       <ul class="flex flex-row py-2">
@@ -33,10 +35,18 @@ import Layout from "../layouts/Layout.astro";
           <a href="https://www.instagram.com/yugoso8512/" target="_blank"><Instagram/></a>
         </li>
       </ul>
-    </section>
+    </SectionContainer>
 
-    <section>
+    <SectionContainer id="experiencia">
+      <h2 class="text-2xl font-semibold mb-6 mt-6 flex gap-x-2 items-center">
+        <BriefCase class="size 6"/>
+        Experiencia laboral y formación
+      </h2>   
       <Experience/>
-    </section>
+    </SectionContainer>
+
+    <SectionContainer id="proyectos">
+
+    </SectionContainer>
   </main>
 </Layout>
