@@ -1,4 +1,5 @@
 ---
+import AnimatedBackground from "../components/AnimatedBackground.astro";
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
 import "@fontsource/libre-baskerville";
@@ -21,10 +22,7 @@ const { title } = Astro.props;
     <title>{title}</title>
   </head>
   <body class="relative text-black dark:text-white">
-    <div
-      class="absolute overflow-hidden inset-0 w-full h-full animate-fade animate-once animate-duration-1000 z-[-1]"
-    >
-    </div>
+    <AnimatedBackground/>
     <Header />
     <slot />
     <Footer />
