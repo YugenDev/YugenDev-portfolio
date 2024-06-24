@@ -1,9 +1,12 @@
 ---
 import Badge from "../components/Badge.astro";
 import Experience from "../components/Experience.astro";
+import Projects from "../components/Projects.astro";
 import SectionContainer from "../components/SectionContainer.astro";
 import BriefCase from "../icons/BriefCase.astro";
+import Code from "../icons/Code.astro";
 import Github from "../icons/Github.astro";
+import HeartCode from "../icons/HeartCode.astro";
 import Instagram from "../icons/Instagram.astro";
 import Linkedin from "../icons/Linkedin.astro";
 import Layout from "../layouts/Layout.astro";
@@ -14,7 +17,7 @@ import Layout from "../layouts/Layout.astro";
     <SectionContainer class="py-16 md:py-36 flex flex-col items-center">
       <img class="rounded-full w-24 h-24 mb-5" src="https://avatars.githubusercontent.com/u/138255902?v=4" alt="yugendev photo" />
       <h1 class="text-white text-3xl md:text-4xl lg:text-5xl font-bold flex flex-row gap-x-4 pb-6 lg:pb-10">
-        Hola , ¡soy Juanes! <div class="flex justify-center items-center">
+        Buenas, ¡soy Juanes! <HeartCode class="size-8"></HeartCode> <div class="flex justify-center items-center">
         </div>
       </h1>
       <h2 class="text-xl lg:text-2xl opacity-88 text-wrap max-w-[615px]">
@@ -46,7 +49,11 @@ import Layout from "../layouts/Layout.astro";
     </SectionContainer>
 
     <SectionContainer id="proyectos">
-
+      <h2 class="text-2xl font-semibold mb-6 mt-6 flex gap-x-2 items-center">
+        <Code class="size 6"/>
+        Proyectos
+      </h2>
+      <Projects/>   
     </SectionContainer>
   </main>
 </Layout>

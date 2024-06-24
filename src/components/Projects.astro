@@ -1,0 +1,29 @@
+---
+const PROJECTS = [
+  {
+    title: "Black Mesa Bank",
+    description: "Plataforma bancaria virtual con un maravilloso sistema de bolsillos y un chatbot que consume la API de chatGPT y se integra perfectamente con tu cuenta",
+    link: "#",
+    github: "https://github.com/YugenDev/black_mesa",
+    image: "",
+    tags: ["React, chatGPT, Expressjs"],
+  },
+];
+---
+
+<div>
+  {
+    PROJECTS.map(({ image, title, description, tags, link, github }) => (
+      <article class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
+        <h3 class="text-2xl font-semibold text-yellow-400 mb-2">{title}</h1>
+        <p class="text-lg mb-4 text-pretty">{description}</p>
+        <ul>
+          {tags.map((tag) => (
+            <li>{tag}</li>
+          ))}
+        </ul>
+        <img class="rounded shadow-2xl shadow-white/20" src={image} alt={'Captura de pantalla del proyecto ${image}'} />
+      </article>
+    ))
+  }
+</div>
