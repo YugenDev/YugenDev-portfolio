@@ -18,7 +18,7 @@
 
 ## Experiencia Laboral
 
-- **Desarrollador Aprendíz / Aprendíz DevOps | SURA/SURAMERICANA | 1 AÑO (DEC 16 2023 - DEC 16 2024)**
+- **Desarrollador Aprendiz / Aprendiz DevOps | SURA/SURAMERICANA | 1 AÑO (DEC 16 2023 - DEC 16 2024)**
 
 ## Educación
 
