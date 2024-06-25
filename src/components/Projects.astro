@@ -7,6 +7,7 @@ import LinkButton from "./LinkButton.astro"
 import NestJS from "../icons/NestJS.astro"
 import ChatGPT from "../icons/ChatGPT.astro"
 import NextJS from "../icons/NextJS.astro"
+import FastAPI from "../icons/FastAPI.astro"
 
 const TAGS = {
   REACT: {
@@ -34,6 +35,11 @@ const TAGS = {
     class: "bg-black text-white",
     icon: NextJS,
   },
+  FASTAPI: {
+    name: "FastAPI",
+    class: "bg-black text-white",
+    icon: FastAPI,
+  },
 }
 const PROJECTS = [
   {
@@ -50,8 +56,9 @@ const PROJECTS = [
     description:
       "Plataforma de bitacora emocional basada en la categorización de emociones mediante colores, da estadisticas al usuario de su estado animico a lo largo del tiempo.",
     link: "",
+    github: "https://github.com/YugenDev/Motic",
     image: "",
-    tags: [TAGS.NEXTJS, TAGS.TAILWIND],
+    tags: [TAGS.NEXTJS, TAGS.TAILWIND, TAGS.FASTAPI],
   },
 ]
 ---
