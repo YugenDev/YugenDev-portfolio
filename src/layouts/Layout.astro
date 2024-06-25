@@ -21,7 +21,7 @@ const { title } = Astro.props;
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
   </head>
-  <body class="relative">
+  <body class="relative text-black dark:text-white">
     <AnimatedBackground />
     <Header />
     <slot />
@@ -50,6 +50,12 @@ const { title } = Astro.props;
   @media (preferes-reduce-motion: reduce) {
     html {
       scroll-behavior: auto;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      color: rgba(255, 255, 255, 0.9);
     }
   }
 
