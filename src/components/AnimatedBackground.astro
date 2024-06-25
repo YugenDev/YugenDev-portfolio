@@ -1,6 +1,7 @@
-<div class="absolute top-0 bottom-0 z-[-2] min-h-screen w-full bg-gray-50 dark:bg-gray-950
-bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(217,216,255,0.5),rgba(255,255,255,0.9))]
-dark:bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
+<div class="absolute top-0 bottom-0 z-[-2] min-h-screen w-full 
+     bg-gray-50 dark:bg-gray-950 
+     bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(217,216,255,0.5),rgba(255,255,255,0.9))] 
+     dark:bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
   <ul class="circles">
     <li></li>
     <li></li>
@@ -79,6 +80,10 @@ dark:bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(
     background: rgba(255, 255, 255, 0.2);
     animation: animate 25s linear infinite;
     bottom: -150px;
+
+    body:not(dark) & {
+      background: rgba(0, 0, 0, 0.2);
+    }
   }
 
   .circles li:nth-child(1) {
@@ -166,6 +171,7 @@ dark:bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(
     100% {
       transform: translateY(-2000px) rotate(720deg);
       opacity: 0;
+      opacity: 0.5;
       border-radius: 50%;
     }
   }
