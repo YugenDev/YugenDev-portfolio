@@ -1,4 +1,5 @@
 ---
+import ThemeToggle from "./ThemeToggle.astro"
 
 const navItems = [
   {
@@ -41,7 +42,7 @@ const navItems = [
         </a>
       ))
     }
-
+    <ThemeToggle />
   </nav>
 </header>
 
@@ -74,7 +75,6 @@ const navItems = [
       observer.observe(section)
     })
 
-    // Cleanup function
     document.onvisibilitychange = () => {
       if (document.visibilityState === "hidden") {
         observer.disconnect()
