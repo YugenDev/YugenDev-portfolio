@@ -1,7 +1,9 @@
-<div class="absolute top-0 bottom-0 z-[-2] min-h-screen w-full 
-     bg-gray-50 dark:bg-gray-950 
-     bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(217,216,255,0.5),rgba(255,255,255,0.9))] 
-     dark:bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
+<div
+  class="absolute top-0 bottom-0 z-[-2] min-h-screen w-full
+bg-gray-300 dark:bg-gray-950
+     bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(217,216,255,0.5),rgba(255,255,255,0.9))]
+     dark:bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"
+>
   <ul class="circles">
     <li></li>
     <li></li>
@@ -77,14 +79,19 @@
     list-style: none;
     width: 20px;
     height: 20px;
-    background: rgba(255, 255, 255, 0.2);
     animation: animate 25s linear infinite;
     bottom: -150px;
   }
 
-  @media (prefers-color-scheme: light){
+  @media (prefers-color-scheme: light) {
     .circles li {
-      background: rgba(0, 0, 0, 0.5);
+      background: rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .circles li {
+      background: rgba(255, 255, 255, 0.2);
     }
   }
 
