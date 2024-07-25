@@ -1,5 +1,6 @@
 ---
 import Experience from "../components/Experience.astro";
+import Hero from "../components/Hero.astro";
 import Projects from "../components/Projects.astro";
 import SectionContainer from "../components/SectionContainer.astro";
 import BriefCase from "../icons/BriefCase.astro";
@@ -15,31 +16,13 @@ import Layout from "../layouts/Layout.astro";
 <Layout title="YugenDev | Portfolio Web">
   <main class="px-4">
     <SectionContainer class="py-16 md:py-36 flex flex-col items-center">
-      <img class="rounded-full w-24 h-24 mb-5 shadow-3xl border border-2 border-black/50 ring-offset-2" src="https://avatars.githubusercontent.com/u/138255902?v=4" alt="yugendev photo" />
-      <h1 class="color-black dark:color-white text-3xl md:text-4xl lg:text-5xl font-bold flex flex-row gap-x-4 pb-6 lg:pb-10">
-        Hola, ¡soy Juanes! <HeartCode class="size-8 color-black dark:color-white"></HeartCode> <div class="flex justify-center items-center">
-        </div>
-      </h1>
-      <h2 class="text-xl lg:text-2xl opacity-88 text-wrap max-w-[615px]">
-        + 1.5 años de experiencia. <span class="text-sky-400">Backend Developer y DevOps Engineer</span>.
-        Soy de Medellín, Colombia, me especializo en <span class="text-red-300">Java</span>, <spancl class="text-lime-300">Python</span> <span class="text-black dark:text-white">y</span> <span class="text-sky-300">Go</span><span class="text-white">.</span>
-      </h2>
-      <ul class="flex gap-6 mt-8 flex-wrap flex-row py-1 px-2 lg:py-2 lg:px-4 justify-center gap-6">
-        <li>
-          <a href="https://www.linkedin.com/in/yugendev/" target="_blank"><Linkedin class="size-9 hover:shadow-lg transition-all duration-200 ease-in-out hover:scale-110"/></a>
-        </li>
-        <li>
-          <a href="https://github.com/YugenDev" target="_blank"><Github class="size-9 hover:shadow-lg transition-all duration-200 ease-in-out hover:scale-110"/></a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/yugoso8512/" target="_blank"><Instagram class="size-9 hover:shadow-lg transition-all duration-200 ease-in-out hover:scale-110"/></a>
-        </li>
-      </ul>
+
+      <Hero/>
 
     </SectionContainer>
 
     <SectionContainer id="experiencia">
-      <h2 class="text-3xl font-semibold mb-6 mt-6 flex gap-x-2 items-center">
+      <h2 class="text-3xl font-semibold mb-6 mt-6 flex gap-x-2 items-center dark:text-white">
         <BriefCase class="size 6"/>
         Experiencia laboral y formación
       </h2>   
