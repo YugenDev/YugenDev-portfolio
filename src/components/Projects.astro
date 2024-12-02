@@ -4,8 +4,14 @@ import React from "../icons/React.astro"
 import Tailwind from "../icons/Tailwind.astro"
 import Link from "../icons/Link.astro"
 import LinkButton from "./LinkButton.astro"
-import NestJS from "../icons/NestJS.astro"
+import Express from "../icons/Express.astro"
+import Docker from "../icons/Docker.astro"
+import Go from "../icons/Go.astro"
+import Traefik from "../icons/Traefik.astro"
+import RabbitMQ from "../icons/Rabbitmq.astro"
+import Spring from "../icons/Spring.astro"
 import ChatGPT from "../icons/ChatGPT.astro"
+import AstroIcon from "../icons/AstroIcon.astro"
 import NextJS from "../icons/NextJS.astro"
 import FastAPI from "../icons/FastAPI.astro"
 
@@ -20,10 +26,10 @@ const TAGS = {
     class: "bg-black text-white",
     icon: Tailwind,
   },
-  NESTJS: {
-    name: "NestJS",
+  EXPRESS: {
+    name: "ExpressJS",
     class: "bg-black text-white",
-    icon: NestJS,
+    icon: Express,
   },
   CHATGPT: {
     name: "ChatGPT",
@@ -40,7 +46,38 @@ const TAGS = {
     class: "bg-black text-white",
     icon: FastAPI,
   },
+  ASTRO: {
+    name: "Astro",
+    class: "bg-black text-white",
+    icon: AstroIcon,
+  },
+  DOCKER: {
+    name: "Docker",
+    class: "bg-black text-white",
+    icon: Docker,
+  },
+  SPRING: {
+    name: "Spring",
+    class: "bg-black text-white",
+    icon: Spring,
+  },
+  GO: {
+    name: "Go",
+    class: "bg-black text-white",
+    icon: Go,
+  },
+  RABBITMQ: {
+    name: "RabbitMQ",
+    class: "bg-black text-white",
+    icon: RabbitMQ,
+  },
+  TRAEFIK: {
+    name: "Traefik",
+    class: "bg-black text-white",
+    icon: Traefik,
+  },
 }
+
 const PROJECTS = [
   {
     title: "Black Mesa Bank | BMB",
@@ -49,16 +86,16 @@ const PROJECTS = [
     link: "",
     github: "https://github.com/Pablo-Berrio/black_mesa",
     image: "./pictures/black-mesa.webp",
-    tags: [TAGS.REACT, TAGS.NESTJS, TAGS.CHATGPT],
+    tags: [TAGS.REACT, TAGS.EXPRESS, TAGS.CHATGPT],
   },
   {
-    title: "Motic (en desarrollo)",
+    title: "Movie Reservation System",
     description:
-      "Plataforma de bitacora emocional basada en la categorización de emociones mediante colores, da estadisticas al usuario de su estado animico a lo largo del tiempo.",
+      "Sistema de reservas y administración para un Cine, autenticación, sistema de roles y basado en microservicios. [EN DESARROLLO]",
     link: "",
-    github: "https://github.com/YugenDev/Motic",
-    image: "https://fakeimg.pl/350x200/?text=NoTengoImagen<%3Apepw%3A989410572514758676>",
-    tags: [TAGS.NEXTJS, TAGS.TAILWIND, TAGS.FASTAPI],
+    github: "https://github.com/YugenDev/rm-movie_reservation-ml",
+    image: "./pictures/movie_reservation_system.webp",
+    tags: [TAGS.FASTAPI, TAGS.DOCKER, TAGS.SPRING, TAGS.GO, TAGS.RABBITMQ, TAGS.TRAEFIK],
   },
 ]
 ---
