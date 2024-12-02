@@ -6,6 +6,8 @@ import SectionContainer from "../components/SectionContainer.astro";
 import BriefCase from "../icons/BriefCase.astro";
 import Code from "../icons/Code.astro";
 import Layout from "../layouts/Layout.astro";
+import ProfileCheck from "../icons/ProfileCheck.astro"
+import AboutMe from "../components/AboutMe.astro"
 ---
 
 
@@ -31,6 +33,16 @@ import Layout from "../layouts/Layout.astro";
         Proyectos
       </h2>
       <Projects/>   
+    </SectionContainer>
+
+    <SectionContainer class="mt-[30px]" id="sobre-mi">
+      <h2
+        class="flex items-center mb-6 text-3xl font-semibold gap-x-8 text-black/80 dark:text-white"
+      >
+        <ProfileCheck class="size-8" />
+        Sobre mí
+      </h2>
+      <AboutMe />
     </SectionContainer>
   </main>
 </Layout>
